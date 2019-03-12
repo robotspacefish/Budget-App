@@ -1,7 +1,7 @@
 import React from 'react';
 import EnterBudget from './EnterBudget';
 import AdjustBudget from './AdjustBudget';
-import AddExpense from './AdjustBudget';
+import AddExpense from './AddExpense';
 
 const Header = (props) => {
   // make budget text red if budget is negative

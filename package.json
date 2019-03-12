@@ -19,7 +19,6 @@
     "live-server": "^1.2.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "validator": "^10.11.0",
     "webpack": "^4.29.6",
     "webpack-dev-server": "^3.2.1"
   },
