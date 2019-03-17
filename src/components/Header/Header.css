@@ -1,0 +1,29 @@
+header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div {
+  margin: 10px 0;
+}
+
+.header-left {
+  background: #eee;
+  padding: 20px;
+}
+
+.header-left form {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .btn-danger {
+  margin-left: 10px;
+}
