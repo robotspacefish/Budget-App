@@ -1,4 +1,5 @@
 import React from 'react';
+import './AddExpense.css';
 
 export default class AddExpense extends React.Component {
   constructor(props) {

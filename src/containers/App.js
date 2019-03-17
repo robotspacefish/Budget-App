@@ -1,8 +1,9 @@
-import React from 'react';
-import Header from './Header';
-import Expenses from './Expenses';
+import React, { Component } from 'react';
+import Header from '../components/Header/Header';
+import Expenses from '../components/Expenses/Expenses';
+import './App.css';
 
-export default class BudgetApp extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.handleAddExpense = this.handleAddExpense.bind(this);
@@ -138,3 +139,5 @@ export default class BudgetApp extends React.Component {
     );
   }
 }
+
+export default App;

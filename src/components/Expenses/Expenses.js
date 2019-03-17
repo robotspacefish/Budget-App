@@ -1,5 +1,5 @@
 import React from 'react';
-import Expense from './Expense';
+import Expense from '../Expense/Expense';
 
 const Expenses = (props) => {
   return (
