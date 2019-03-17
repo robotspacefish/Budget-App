@@ -1,33 +1,74 @@
-.App {
-  text-align: center;
+.cost-input,
+.budget-input {
+  width: 60px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+button.btn {
+  border-radius: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.budget-display {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.reset-budget-btn {
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+label { margin: 0; }
+
+#expenses {
+  position: relative;
+}
+
+.clear-all-expenses-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+.table { width: 100%; max-width: 600px; margin: 0 auto; }
+
+.table td {
+  padding: 0;
+  vertical-align: middle;
+}
+
+td.expense-name,
+td.expense-cost {
+  padding: 0 5px;
+}
+
+td.expense-edit-btn { width: 60px }
+td.expense-remove-btn { width: 70px; }
+
+table .btn-danger,
+table .btn-secondary {
+  width: 100%;
+}
+
+.btn {
+  border: 0; border-radius: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+#empty-expense-list-msg {
+  font-size: 1.4em;
+  color: #920303;
+  font-style: italic;
+}
+
+.error-msg,
+.danger {
+  color: #920303;
 }
