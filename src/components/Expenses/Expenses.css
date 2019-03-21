@@ -1,0 +1,12 @@
+#expenses-table {
+  margin: 0 auto;
+}
+
+#expenses-table td {
+  padding: 0 0 0 10px;
+  vertical-align: middle;
+}
+
+#expenses-table .expense-remove-btn {
+  padding: 0;
+}

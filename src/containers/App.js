@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
 import Expenses from '../components/Expenses/Expenses';
+import Footer from '../components/Footer/Footer';
 import './App.css';
 
 class App extends Component {
@@ -135,6 +136,7 @@ class App extends Component {
           handleEditExpenseModal={this.handleEditExpenseModal}
           handleClearAllExpenses={this.handleClearAllExpenses}
         />
+        <Footer />
       </div>
     );
   }

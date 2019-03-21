@@ -1,5 +1,6 @@
 import React from 'react';
 import Expense from '../Expense/Expense';
+import './Expenses.css';
 
 const Expenses = (props) => {
   return (
@@ -11,7 +12,7 @@ const Expenses = (props) => {
         }}>Clear All Expenses</button>
       }
       {
-        props.expenseList.length > 0 ? <table className="expense table table-striped table-bordered table-hover">
+        props.expenseList.length > 0 ? <table id="expenses-table" className="table table-striped table-bordered table-hover">
           <tbody>
             {
               props.expenseList.map((expense) => (
