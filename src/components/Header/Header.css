@@ -27,3 +27,13 @@ header div {
 .header-left .btn-danger {
   margin-left: 10px;
 }
+
+label {
+  padding-right: 5px;
+  align-self: center;
+  margin-bottom: 0;
+}
+.header-left form {
+  display: flex;
+  align-items: inherit;
+}
