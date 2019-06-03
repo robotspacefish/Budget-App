@@ -1,12 +1,3 @@
-.clear-all-expenses-btns {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.clear-all-expenses-btns button {
-  margin: 0 10px;
-}
-
 #expenses-table {
   margin: 0 auto;
 }
@@ -25,24 +16,6 @@
 #expenses-table tr {
   display: flex;
 }
-
-.expense-name {
-  flex: 2;
-}
-
-#expenses-table .expense-remove-btn {
-  position: relative;
-}
-
-#expenses-table .expense-remove-btn  button {
-  padding: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 
 @media screen and (min-width: 768px) {
   #expenses {
