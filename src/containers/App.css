@@ -25,17 +25,6 @@ input {
 
 label { margin: 0; }
 
-#expenses {
-  position: relative;
-}
-
-.clear-all-expenses-btn {
-  position: absolute;
-  right: 0;
-  top: 0;
-
-}
-
 .table { width: 100%; max-width: 600px; margin: 0 auto; }
 
 .table td {
