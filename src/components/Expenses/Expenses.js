@@ -8,11 +8,9 @@ const Expenses = (props) => {
       <h2 className=" text-center text-muted">Expenses</h2>
       {props.expenseList.length > 0 &&
         <div className="clear-all-expenses-btns">
-          <button className="complete-all-btn btn btn-danger" onClick={(e) => {
-            props.handleCompleteAllExpenses();
-          }}>Clear All & Put $ Back</button>
+          <button className="complete-all-btn btn btn-danger" onClick={props.handleClearAllExpenses}>Clear All & Put $ Back</button>
           <button className="clear-all-btn btn btn-danger" onClick={(e) => {
-            props.handleClearAllExpenses();
+          props.handleCompleteAllExpenses();
           }}>Clear All Expenses</button>
         </div>
       }

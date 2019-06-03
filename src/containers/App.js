@@ -13,6 +13,7 @@ class App extends Component {
     this.handleAdjustBudget = this.handleAdjustBudget.bind(this);
     this.handleResetBudget = this.handleResetBudget.bind(this);
     this.handleClearAllExpenses = this.handleClearAllExpenses.bind(this);
+    this.handleCompleteAllExpenses = this.handleCompleteAllExpenses.bind(this);
     this.handleCompleteExpense = this.handleCompleteExpense.bind(this);
     this.state = {
       totalExpenses: 0,
@@ -80,14 +81,28 @@ class App extends Component {
   // handleClearAllExpenses =====================================
   // puts money back in budget
   handleClearAllExpenses() {
+    let addBack = 0;
+    this.state.expenseList.map(expense => {
+      addBack += parseInt(expense.cost);
+    })
+
+    localStorage.removeItem('expenseList');
+    this.setState(st => {
+      const budget = st.totalBudget === undefined ? 0 : st.totalBudget;
+      const newBudget = addBack + budget;
+        debugger
+      return {
+        totalExpenses: 0,
+        expenseList: [],
+        totalBudget : newBudget
+        }
+    });
+  }
+  // handleCompleteAllExpenses =====================================
+   // does not put money back in budget
+  handleCompleteAllExpenses() {
     localStorage.removeItem('expenseList');
     this.setState(() => ({ totalExpenses: 0, expenseList: [] }));
-  }
-  // handleClearAllExpenses =====================================
-  handleCompleteAllExpenses() {
-    // does not put money back in budget
-    localStorage.removeItem('expenseList');
-    this.setState(() => ({ expenseList: [] }));
   }
   // handleDeleteExpense =====================================
   // adds money back to budget
@@ -156,6 +171,7 @@ class App extends Component {
           handleCompleteExpense={this.handleCompleteExpense}
           handleEditExpenseModal={this.handleEditExpenseModal}
           handleClearAllExpenses={this.handleClearAllExpenses}
+          handleCompleteAllExpenses={this.handleCompleteAllExpenses}
         />
         <Footer />
       </div>
