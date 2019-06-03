@@ -78,10 +78,16 @@ class App extends Component {
 
   }
   // handleClearAllExpenses =====================================
+  // puts money back in budget
   handleClearAllExpenses() {
-    console.log('clearing expense list');
     localStorage.removeItem('expenseList');
     this.setState(() => ({ totalExpenses: 0, expenseList: [] }));
+  }
+  // handleClearAllExpenses =====================================
+  handleCompleteAllExpenses() {
+    // does not put money back in budget
+    localStorage.removeItem('expenseList');
+    this.setState(() => ({ expenseList: [] }));
   }
   // handleDeleteExpense =====================================
   // adds money back to budget

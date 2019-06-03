@@ -7,9 +7,14 @@ const Expenses = (props) => {
     <section id="expenses" className="container">
       <h2 className=" text-center text-muted">Expenses</h2>
       {props.expenseList.length > 0 &&
-        <button className="clear-all-expenses-btn btn btn-danger" onClick={(e) => {
-          props.handleClearAllExpenses();
-        }}>Clear All Expenses</button>
+        <div className="clear-all-expenses-btns">
+          <button className="complete-all-btn btn btn-danger" onClick={(e) => {
+            props.handleCompleteAllExpenses();
+          }}>Clear All & Put $ Back</button>
+          <button className="clear-all-btn btn btn-danger" onClick={(e) => {
+            props.handleClearAllExpenses();
+          }}>Clear All Expenses</button>
+        </div>
       }
       {
         props.expenseList.length > 0 ? <table id="expenses-table" className="table table-striped table-bordered table-hover">

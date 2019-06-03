@@ -8,7 +8,7 @@ const Expense = (props) => {
       <td className="expense-remove-btn">
         <button className="btn btn-danger" onClick={(e) => {
           props.handleDeleteExpense({ name: props.expenseName, cost: props.expenseCost })
-        }}>Remove (Put $ back)</button>
+        }}>Remove and put $ back</button>
       </td>
       <td className="expense-remove-btn">
         <button className="btn btn-danger" onClick={(e) => {
