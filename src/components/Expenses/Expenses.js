@@ -21,6 +21,7 @@ const Expenses = (props) => {
                   expenseName={expense.name}
                   expenseCost={expense.cost}
                   handleDeleteExpense={props.handleDeleteExpense}
+                  handleCompleteExpense={props.handleCompleteExpense}
                 />
               ))
             }

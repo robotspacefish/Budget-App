@@ -3,10 +3,33 @@
 }
 
 #expenses-table td {
-  padding: 0 0 0 10px;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#expenses-table td:nth-child(3),
+#expenses-table td:nth-child(4) {
+  background: #DC3545;
+}
+
+#expenses-table tr {
+  display: flex;
+}
+
+.expense-name {
+  flex: 2;
 }
 
 #expenses-table .expense-remove-btn {
+  position: relative;
+}
+
+#expenses-table .expense-remove-btn  button {
   padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

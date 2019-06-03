@@ -26,7 +26,7 @@ export default class AddExpense extends React.Component {
       <div className="add-expense">
         <form onSubmit={this.handleAddExpense}>
           <label>Add an Expense</label>
-          <input type="text" name="name" placeholder="Expense Name" />
+          <input type="text" name="name" placeholder="Expense Name" maxLength="30" />
           <input className="cost-input" type="number" name="cost" min="1" placeholder="$" />
           <button className="btn btn-dark">Submit</button>
         </form>

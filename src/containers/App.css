@@ -49,7 +49,11 @@ td.expense-cost {
 }
 
 td.expense-edit-btn { width: 60px }
-td.expense-remove-btn { width: 70px; }
+td.expense-remove-btn {
+  display: flex;
+  flex-direction: column;
+  flex : 1;
+}
 
 table .btn-danger,
 table .btn-secondary {
