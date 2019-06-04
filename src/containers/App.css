@@ -28,13 +28,7 @@ label { margin: 0; }
 .table { width: 100%; max-width: 600px; margin: 0 auto; }
 
 .table td {
-  padding: 0;
   vertical-align: middle;
-}
-
-td.expense-name,
-td.expense-cost {
-  padding: 0 5px;
 }
 
 td.expense-edit-btn { width: 60px }
