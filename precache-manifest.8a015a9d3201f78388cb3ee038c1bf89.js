@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Budget-App/static/js/2.cba51e27.chunk.js"
   },
   {
-    "revision": "2d381f32758c4e7e5dffead759779e68",
+    "revision": "5440c4a103cbe33e256ca3d7b96caa54",
     "url": "/Budget-App/index.html"
   }
 ];
