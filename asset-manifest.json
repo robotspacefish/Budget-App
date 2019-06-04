@@ -1,5 +1,5 @@
 {
-  "main.css": "/Budget-App/static/css/main.7f21370e.chunk.css",
+  "main.css": "/Budget-App/static/css/main.f89b2310.chunk.css",
   "main.js": "/Budget-App/static/js/main.ea108dee.chunk.js",
   "main.js.map": "/Budget-App/static/js/main.ea108dee.chunk.js.map",
   "runtime~main.js": "/Budget-App/static/js/runtime~main.fe220f5b.js",
@@ -8,8 +8,8 @@
   "static/js/2.cba51e27.chunk.js": "/Budget-App/static/js/2.cba51e27.chunk.js",
   "static/js/2.cba51e27.chunk.js.map": "/Budget-App/static/js/2.cba51e27.chunk.js.map",
   "index.html": "/Budget-App/index.html",
-  "precache-manifest.8a015a9d3201f78388cb3ee038c1bf89.js": "/Budget-App/precache-manifest.8a015a9d3201f78388cb3ee038c1bf89.js",
+  "precache-manifest.3015f9c481d92b6f6d5de61ddf9c017e.js": "/Budget-App/precache-manifest.3015f9c481d92b6f6d5de61ddf9c017e.js",
   "service-worker.js": "/Budget-App/service-worker.js",
   "static/css/2.a5cb4f40.chunk.css.map": "/Budget-App/static/css/2.a5cb4f40.chunk.css.map",
-  "static/css/main.7f21370e.chunk.css.map": "/Budget-App/static/css/main.7f21370e.chunk.css.map"
+  "static/css/main.f89b2310.chunk.css.map": "/Budget-App/static/css/main.f89b2310.chunk.css.map"
 }

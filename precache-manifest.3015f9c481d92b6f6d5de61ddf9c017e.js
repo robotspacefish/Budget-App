@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "d99482b7e4f1d0712e7f",
-    "url": "/Budget-App/static/css/main.7f21370e.chunk.css"
+    "revision": "c9f2e5efba679c87517a",
+    "url": "/Budget-App/static/css/main.f89b2310.chunk.css"
   },
   {
-    "revision": "d99482b7e4f1d0712e7f",
+    "revision": "c9f2e5efba679c87517a",
     "url": "/Budget-App/static/js/main.ea108dee.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Budget-App/static/js/2.cba51e27.chunk.js"
   },
   {
-    "revision": "5440c4a103cbe33e256ca3d7b96caa54",
+    "revision": "3b89348bd410a66632e8a60f94b960b6",
     "url": "/Budget-App/index.html"
   }
 ];
